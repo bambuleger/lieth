@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lieth-Schule Bad Fallingbostel</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
+    <?php wp_head(); ?>
+</head>
+
+    <body>
+    <header class="header">
+        <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+    </header>

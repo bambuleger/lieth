@@ -1,0 +1,7 @@
+        
+            <div class="footer">copyright aa
+                <?php wp_nav_menu(array('theme_location'=>'secondary')); ?></div>
+        
+    <?php wp_footer(); ?>
+    </body>
+</html>
